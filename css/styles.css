@@ -1,0 +1,45 @@
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css";
+@import "https://resources/demos/style.css";
+header {
+  background: #1C252C;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+header .row_header .img_photo {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 4px 600px 4px 1200px;
+  overflow: hidden;
+}
+header .header_right {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .header_right h1 {
+  color: white;
+}
+header .header_right p {
+  color: white;
+}
+header .header_right h4 {
+  color: rgb(170, 163, 163);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
