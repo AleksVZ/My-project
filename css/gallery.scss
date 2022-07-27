@@ -21,6 +21,10 @@
     transition: all 1s ease-in-out;
     height: 75vmin;
     position: relative;
+    @include max-screen (1230px){
+
+        
+    }
     .card__head {
       color: black;
       background: rgba(255, 30, 173, 0.75);
@@ -35,6 +39,11 @@
       left: 0;
       font-size: 1em;
       white-space: nowrap;
+
+      @include max-screen (1230px){
+
+        
+    }
     }
 
     &:hover {
