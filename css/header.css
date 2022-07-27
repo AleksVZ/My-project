@@ -4,6 +4,11 @@ header {
   padding-bottom: 25px;
 }
 
+header .row_header {
+  background-image: url("../img/Pngtree_2.png");
+  background-size: cover;
+}
+
 header .row_header .img_photo {
   max-width: 600px;
   width: 100%;
@@ -17,12 +22,15 @@ header .header_right {
 
 header .header_right h1 {
   color: white;
+  font-size: 50px;
 }
 
 header .header_right p {
   color: white;
+  font-size: 20px;
 }
 
 header .header_right h4 {
-  color: #aaa3a3;
+  color: white;
+  font-size: 30px;
 }
