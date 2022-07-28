@@ -35,6 +35,10 @@ header .header_right h4 {
   color: white;
   font-size: 30px;
 }
+header .header_right a {
+  color: white;
+  font-size: 30px;
+}
 
 .gallery {
   margin: 0;
@@ -51,6 +55,11 @@ header .header_right h4 {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 1230px) {
+  .gallery {
+    display: none;
+  }
+}
 
 .gallery_box {
   display: -webkit-box;
@@ -66,11 +75,15 @@ header .header_right h4 {
   overflow: hidden;
   -webkit-transform: skew(5deg);
           transform: skew(5deg);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .gallery_box .card {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   height: 75vmin;

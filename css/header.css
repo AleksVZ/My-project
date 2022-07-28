@@ -34,3 +34,8 @@ header .header_right h4 {
   color: white;
   font-size: 30px;
 }
+
+header .header_right a {
+  color: white;
+  font-size: 30px;
+}

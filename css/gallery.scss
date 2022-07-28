@@ -6,6 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include max-screen (1230px){
+   display: none;
+  }
+
 }
 
 .gallery_box {
@@ -15,16 +19,19 @@
   margin: 10vmin;
   overflow: hidden;
   transform: skew(5deg);
+  flex-wrap: wrap;
 
   .card {
     flex: 1;
+    flex-wrap: wrap;
     transition: all 1s ease-in-out;
     height: 75vmin;
     position: relative;
-    @include max-screen (1230px){
+   
 
-        
-    }
+    
+
+    
     .card__head {
       color: black;
       background: rgba(255, 30, 173, 0.75);
