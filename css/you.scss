@@ -1,0 +1,45 @@
+.you{
+
+    background: #ffb8c6;
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+    
+    .you_left{
+            padding-top: 50px;
+            padding-bottom: 25px;
+    
+    h3{
+        font-size: 30px;
+        margin-bottom: 25px;
+        line-height: inherit;
+    }
+    p{
+        font-size: 20px;
+    }
+    }
+    .img_you{
+        width: 50%;
+        position: absolute;
+        right: 0;
+        top: 0; 
+        z-index: 0;
+        padding-right: inherit;
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+}
