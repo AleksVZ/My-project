@@ -5,22 +5,22 @@
   overflow: hidden;
 }
 
-.you .you_left {
+.you .row_you .you_left {
   padding-top: 50px;
   padding-bottom: 25px;
 }
 
-.you .you_left h3 {
+.you .row_you .you_left h3 {
   font-size: 30px;
   margin-bottom: 25px;
   line-height: inherit;
 }
 
-.you .you_left p {
+.you .row_you .you_left p {
   font-size: 20px;
 }
 
-.you .img_you {
+.you .row_you .img_you {
   width: 50%;
   position: absolute;
   right: 0;
@@ -29,7 +29,7 @@
   padding-right: inherit;
 }
 
-.you .img_you img {
+.you .row_you .img_you img {
   display: block;
   width: 100%;
 }
