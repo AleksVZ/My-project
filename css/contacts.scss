@@ -1,0 +1,96 @@
+
+.contacts{
+
+    background: #ffb8c6;
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+
+    .container{
+
+        @include max-screen (1142px){
+            padding-right: inherit;
+            padding-left: inherit;
+
+        }
+
+
+    .row_contacts{
+        color: rgb(9, 9, 9);
+
+        }
+
+        .contacts_left{
+           
+
+            padding-right: 15px;
+            max-width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            @include max-screen (1142px){
+                padding-right: 15px;
+                padding-left: 15px;
+                max-width: 100%;
+                align-items: center;
+                // padding-top: 60px;
+                // padding-bottom: 60px;
+            }
+            @include min-screen (1440px){
+                padding-top: 100px;
+                padding-bottom: 100px;       
+            } 
+             @include max-screen (1439px){
+                padding-top: 60px;
+                padding-bottom: 60px;     
+                //!   доделать щель  
+            }
+
+            h3{
+                font-size: 25px;
+                margin-bottom: 25px;
+                line-height: inherit;
+                @include max-screen (1142px){
+                    
+                }
+            }
+            h4{
+                font-size: 20x;
+                // margin-bottom: 25px;
+                line-height: inherit;
+            }
+            p{
+                font-size: 18px;
+            }
+
+
+
+        }
+        .img_you{
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0; 
+            z-index: 0;
+            padding-right: inherit;
+            padding-left: inherit;
+            img{
+                display: block;
+                width: 100%;
+            }
+            @include max-screen (1142px){
+                position: relative;
+                width: 100%;
+               }
+    
+        }
+        
+
+
+    }
+
+
+}

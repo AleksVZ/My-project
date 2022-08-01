@@ -168,7 +168,7 @@ header .header_right a {
   height: 50%;
   overflow: hidden;
 }
-@media screen and (max-width: 1191px) {
+@media screen and (max-width: 1142px) {
   .you .container {
     padding-right: inherit;
     padding-left: inherit;
@@ -178,9 +178,7 @@ header .header_right a {
   padding-bottom: 0px;
 }
 .you .container .you_left {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 70vh;
+  padding-right: 15px;
   max-width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,27 +194,39 @@ header .header_right a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (max-width: 1191px) {
+@media screen and (max-width: 1142px) {
   .you .container .you_left {
-    max-width: 100%;
-    height: 40vh;
     padding-right: 15px;
     padding-left: 15px;
+    max-width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
 }
+@media screen and (max-width: 1227px) {
+  .you .container .you_left {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media screen and (min-width: 1228px) {
+  .you .container .you_left {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
 .you .container .you_left h3 {
-  font-size: 30px;
-  margin-bottom: 25px;
+  font-size: 25px;
+  margin-bottom: 20px;
   line-height: inherit;
 }
 .you .container .you_left p {
-  font-size: 20px;
+  font-size: 18px;
 }
 .you .container .img_you {
   width: 50%;
+  height: 100%;
   position: absolute;
   right: 0;
   top: 0;
@@ -228,11 +238,10 @@ header .header_right a {
   display: block;
   width: 100%;
 }
-@media screen and (max-width: 1191px) {
+@media screen and (max-width: 1142px) {
   .you .container .img_you {
     position: relative;
     width: 100%;
-    height: 40vh;
   }
 }
 
@@ -250,6 +259,93 @@ footer .down_page_row ul {
 }
 footer .down_page_row ul li {
   color: white;
+}
+
+.contacts {
+  background: #ffb8c6;
+  position: relative;
+  height: 50%;
+  overflow: hidden;
+}
+@media screen and (max-width: 1142px) {
+  .contacts .container {
+    padding-right: inherit;
+    padding-left: inherit;
+  }
+}
+.contacts .container .row_contacts {
+  color: rgb(9, 9, 9);
+}
+.contacts .container .contacts_left {
+  padding-right: 15px;
+  max-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 1142px) {
+  .contacts .container .contacts_left {
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .contacts .container .contacts_left {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .contacts .container .contacts_left {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.contacts .container .contacts_left h3 {
+  font-size: 25px;
+  margin-bottom: 25px;
+  line-height: inherit;
+}
+.contacts .container .contacts_left h4 {
+  font-size: 20x;
+  line-height: inherit;
+}
+.contacts .container .contacts_left p {
+  font-size: 18px;
+}
+.contacts .container .img_you {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  padding-right: inherit;
+  padding-left: inherit;
+}
+.contacts .container .img_you img {
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 1142px) {
+  .contacts .container .img_you {
+    position: relative;
+    width: 100%;
+  }
 }
 
 * {

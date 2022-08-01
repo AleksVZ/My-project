@@ -7,7 +7,7 @@
 
     .container{
         // height: 70vh;
-        @include max-screen (1191px){
+        @include max-screen (1142px){
             padding-right: inherit;
             padding-left: inherit;
 
@@ -18,37 +18,53 @@
         padding-bottom: 0px;
     }
     .you_left{
-            padding-top: 20px;
-            padding-bottom: 20px;
-            height: 70vh;
+            // padding-top: 100px;
+            // padding-bottom: 100px;
+            padding-right: 15px;
+            // height: 100%;
 
             max-width: 50%;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
+            @include max-screen (1142px){
 
-
-            @include max-screen (1191px){
-                max-width: 100%; 
-                height: 40vh;
                 padding-right: 15px;
                 padding-left: 15px;
+                max-width: 100%;
                 align-items: center;
-    
+                // padding-top: 90px;
+                // padding-bottom: 90px;
             }
+            @include max-screen (1227px){
+                padding-top: 70px;
+                padding-bottom: 70px;       
+            } 
+             @include min-screen (1228px){
+                padding-top: 100px;
+                padding-bottom: 100px;       
+            }
+
+
+
+
     
     h3{
-        font-size: 30px;
-        margin-bottom: 25px;
+        font-size: 25px;
+        margin-bottom: 20px;
         line-height: inherit;
+        @include max-screen (1142px){
+            
+        }
     }
     p{
-        font-size: 20px;
+        font-size: 18px;
     }
     }
     .img_you{
         width: 50%;
+        height: 100%;
         position: absolute;
         right: 0;
         top: 0; 
@@ -59,12 +75,9 @@
             display: block;
             width: 100%;
         }
-        @include max-screen (1191px){
+        @include max-screen (1142px){
             position: relative;
             width: 100%;
-            height: 40vh; //? 34vh исправить в адаптиве
-           
-
            }
 
     }
