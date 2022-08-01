@@ -327,7 +327,28 @@ footer .down_page_row ul li {
 .contacts .container .contacts_left p {
   font-size: 18px;
 }
-.contacts .container .img_you {
+.contacts .container .contacts_left span.telegramm ::after {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f2c6";
+  font-size: 30px;
+  color: rgb(255, 0, 38);
+}
+.contacts .container .contacts_left span.viber ::after {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f409";
+  font-size: 30px;
+  color: rgb(255, 0, 38);
+}
+.contacts .container .contacts_left span.whatsapp ::after {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f232";
+  font-size: 30px;
+  color: rgb(255, 0, 38);
+}
+.contacts .img_you {
   width: 50%;
   height: 100%;
   position: absolute;
@@ -337,12 +358,12 @@ footer .down_page_row ul li {
   padding-right: inherit;
   padding-left: inherit;
 }
-.contacts .container .img_you img {
+.contacts .img_you img {
   display: block;
   width: 100%;
 }
 @media screen and (max-width: 1142px) {
-  .contacts .container .img_you {
+  .contacts .img_you {
     position: relative;
     width: 100%;
   }

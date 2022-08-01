@@ -63,11 +63,53 @@
             }
             p{
                 font-size: 18px;
+
+                }
+
+            span.telegramm{
+                ::after{
+                    font-family: "Font Awesome 6 Brands";
+                    font-weight: 400;
+                    content: "\f2c6";
+                    font-size: 30px;
+                    color: rgb(255, 0, 38);
+                }
+                
+            }
+            
+            span.viber{
+                ::after{
+                    font-family: "Font Awesome 6 Brands";
+                    font-weight: 400;
+                    content: "\f409";
+                    font-size: 30px;
+                    color: rgb(255, 0, 38);
+                }
+                
+            }
+            span.whatsapp{
+                ::after{
+                    font-family: "Font Awesome 6 Brands";
+                    font-weight: 400;
+                    content: "\f232";
+                    font-size: 30px;
+                    color: rgb(255, 0, 38);
+                    
+                }
+                
+            }
+
             }
 
 
 
-        }
+
+
+    }
+
+
+
+        
         .img_you{
             width: 50%;
             height: 100%;
@@ -85,12 +127,11 @@
                 position: relative;
                 width: 100%;
                }
-    
-        }
+    }
+}
         
 
 
-    }
 
 
-}
+
