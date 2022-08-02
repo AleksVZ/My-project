@@ -67,34 +67,73 @@
                 }
 
             span.telegramm{
+                margin-bottom: 10px;
+                
                 ::after{
                     font-family: "Font Awesome 6 Brands";
                     font-weight: 400;
                     content: "\f2c6";
                     font-size: 30px;
-                    color: rgb(255, 0, 38);
+                    color: white;
+                    position: relative;
+                    top: 5px;
+                    left: 5px;
                 }
+                a{
+                    border: 1px solid #1C252C;
+                    border-radius: 6px;
+                    padding: 12px 20px;
+                    color: white;
+                    background: #1C252C;
+                
+                }
+
                 
             }
             
             span.viber{
+                margin-bottom: 10px;
+
                 ::after{
                     font-family: "Font Awesome 6 Brands";
                     font-weight: 400;
                     content: "\f409";
                     font-size: 30px;
-                    color: rgb(255, 0, 38);
+                    color: white;
+                    position: relative;
+                    top: 5px;
+                    left: 5px;
+                    
+                }
+                a{
+                    border: 1px solid #1C252C;
+                    border-radius: 6px;
+                    padding: 12px 40px;
+                    color: white;
+                    background: #1C252C;
+                    
                 }
                 
             }
             span.whatsapp{
+                margin-bottom: 10px;
                 ::after{
                     font-family: "Font Awesome 6 Brands";
                     font-weight: 400;
                     content: "\f232";
                     font-size: 30px;
-                    color: rgb(255, 0, 38);
-                    
+                    color: #ffb8c6;
+                    position: relative;
+                    top: 5px;
+                    left: 5px;
+                }
+                a{
+                    border: 1px solid #1C252C;
+                    border-radius: 6px;
+                    padding: 12px 20px;
+                    color: #ffb8c6;
+                    background: #1C252C;
+                 
                 }
                 
             }
