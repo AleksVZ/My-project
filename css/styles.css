@@ -335,7 +335,7 @@ footer .down_page_row ul li {
   font-weight: 400;
   content: "\f2c6";
   font-size: 30px;
-  color: white;
+  color: #1C252C;
   position: relative;
   top: 5px;
   left: 5px;
@@ -344,8 +344,7 @@ footer .down_page_row ul li {
   border: 1px solid #1C252C;
   border-radius: 6px;
   padding: 12px 20px;
-  color: white;
-  background: #1C252C;
+  color: #1C252C;
 }
 .contacts .container .contacts_left span.viber {
   margin-bottom: 10px;
