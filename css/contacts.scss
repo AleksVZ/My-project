@@ -21,7 +21,8 @@
         }
 
         .contacts_left{
-           
+            padding-top: 100px;
+            padding-bottom: 100px;
 
             padding-right: 15px;
             max-width: 50%;
@@ -38,15 +39,7 @@
                 // padding-top: 60px;
                 // padding-bottom: 60px;
             }
-            @include min-screen (1440px){
-                padding-top: 100px;
-                padding-bottom: 100px;       
-            } 
-             @include max-screen (1439px){
-                padding-top: 60px;
-                padding-bottom: 60px;     
-                //!   доделать щель  
-            }
+
 
             h3{
                 font-size: 25px;
@@ -74,7 +67,7 @@
                     font-weight: 400;
                     content: "\f2c6";
                     font-size: 30px;
-                    color: #1C252C;;
+                    color: #ffb8c6;
                     position: relative;
                     top: 5px;
                     left: 5px;
@@ -83,11 +76,13 @@
                     border: 1px solid #1C252C;
                     border-radius: 6px;
                     padding: 12px 20px;
-                    color: #1C252C;
-                   
-                
+                    color: #ffb8c6;
+                    background: #1C252C;
                 }
+                 :hover{
+                        text-decoration: none;
 
+                    }
                 
             }
             
@@ -99,7 +94,7 @@
                     font-weight: 400;
                     content: "\f409";
                     font-size: 30px;
-                    color: white;
+                    color: #ffb8c6;
                     position: relative;
                     top: 5px;
                     left: 5px;
@@ -109,11 +104,13 @@
                     border: 1px solid #1C252C;
                     border-radius: 6px;
                     padding: 12px 40px;
-                    color: white;
+                    color: #ffb8c6;
                     background: #1C252C;
-                    
                 }
-                
+                :hover{
+                        text-decoration: none;
+
+                    }
             }
             span.whatsapp{
                 margin-bottom: 10px;
@@ -133,9 +130,10 @@
                     padding: 12px 20px;
                     color: #ffb8c6;
                     background: #1C252C;
-                 
                 }
-                
+                  :hover{
+                        text-decoration: none;
+                    }
             }
 
             }

@@ -35,9 +35,41 @@ header .header_right h4 {
   color: white;
   font-size: 30px;
 }
-header .header_right a {
-  color: white;
-  font-size: 30px;
+header .header_right ul {
+  list-style-type: none;
+}
+header .header_right ul :first-child ::before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f2c6";
+  font-size: 60px;
+  color: #1C252C;
+}
+header .header_right ul :last-child ::before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f232";
+  font-size: 62px;
+  color: #1C252C;
+}
+header .header_right ul li {
+  border: 1px solid rgb(237, 192, 192);
+  background: rgb(237, 192, 192);
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px;
+  width: 91px;
+  height: 91px;
+}
+header .header_right ul li ::before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f409";
+  font-size: 62px;
+  color: #1C252C;
+}
+header .header_right ul li :hover {
+  text-decoration: none;
 }
 
 .gallery {
@@ -178,6 +210,8 @@ header .header_right a {
   padding-bottom: 0px;
 }
 .you .container .you_left {
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-right: 15px;
   max-width: 50%;
   display: -webkit-box;
@@ -202,18 +236,6 @@ header .header_right a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-}
-@media screen and (max-width: 1227px) {
-  .you .container .you_left {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-}
-@media screen and (min-width: 1228px) {
-  .you .container .you_left {
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
 }
 .you .container .you_left h3 {
@@ -277,6 +299,8 @@ footer .down_page_row ul li {
   color: rgb(9, 9, 9);
 }
 .contacts .container .contacts_left {
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-right: 15px;
   max-width: 50%;
   display: -webkit-box;
@@ -303,18 +327,6 @@ footer .down_page_row ul li {
             align-items: center;
   }
 }
-@media screen and (min-width: 1440px) {
-  .contacts .container .contacts_left {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-@media screen and (max-width: 1439px) {
-  .contacts .container .contacts_left {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
 .contacts .container .contacts_left h3 {
   font-size: 25px;
   margin-bottom: 25px;
@@ -335,7 +347,7 @@ footer .down_page_row ul li {
   font-weight: 400;
   content: "\f2c6";
   font-size: 30px;
-  color: #1C252C;
+  color: #ffb8c6;
   position: relative;
   top: 5px;
   left: 5px;
@@ -344,7 +356,11 @@ footer .down_page_row ul li {
   border: 1px solid #1C252C;
   border-radius: 6px;
   padding: 12px 20px;
-  color: #1C252C;
+  color: #ffb8c6;
+  background: #1C252C;
+}
+.contacts .container .contacts_left span.telegramm :hover {
+  text-decoration: none;
 }
 .contacts .container .contacts_left span.viber {
   margin-bottom: 10px;
@@ -354,7 +370,7 @@ footer .down_page_row ul li {
   font-weight: 400;
   content: "\f409";
   font-size: 30px;
-  color: white;
+  color: #ffb8c6;
   position: relative;
   top: 5px;
   left: 5px;
@@ -363,8 +379,11 @@ footer .down_page_row ul li {
   border: 1px solid #1C252C;
   border-radius: 6px;
   padding: 12px 40px;
-  color: white;
+  color: #ffb8c6;
   background: #1C252C;
+}
+.contacts .container .contacts_left span.viber :hover {
+  text-decoration: none;
 }
 .contacts .container .contacts_left span.whatsapp {
   margin-bottom: 10px;
@@ -385,6 +404,9 @@ footer .down_page_row ul li {
   padding: 12px 20px;
   color: #ffb8c6;
   background: #1C252C;
+}
+.contacts .container .contacts_left span.whatsapp :hover {
+  text-decoration: none;
 }
 .contacts .img_you {
   width: 50%;

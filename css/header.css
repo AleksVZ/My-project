@@ -35,7 +35,44 @@ header .header_right h4 {
   font-size: 30px;
 }
 
-header .header_right a {
-  color: white;
-  font-size: 30px;
+header .header_right ul {
+  list-style-type: none;
+}
+
+header .header_right ul :first-child ::before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f2c6";
+  font-size: 60px;
+  color: #1C252C;
+}
+
+header .header_right ul :last-child ::before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f232";
+  font-size: 62px;
+  color: #1C252C;
+}
+
+header .header_right ul li {
+  border: 1px solid #edc0c0;
+  background: #edc0c0;
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px;
+  width: 91px;
+  height: 91px;
+}
+
+header .header_right ul li ::before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  content: "\f409";
+  font-size: 62px;
+  color: #1C252C;
+}
+
+header .header_right ul li :hover {
+  text-decoration: none;
 }

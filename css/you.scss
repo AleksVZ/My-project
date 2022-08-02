@@ -18,8 +18,8 @@
         padding-bottom: 0px;
     }
     .you_left{
-            // padding-top: 100px;
-            // padding-bottom: 100px;
+            padding-top: 100px;
+            padding-bottom: 100px;
             padding-right: 15px;
             // height: 100%;
 
@@ -37,14 +37,14 @@
                 // padding-top: 90px;
                 // padding-bottom: 90px;
             }
-            @include max-screen (1227px){
-                padding-top: 70px;
-                padding-bottom: 70px;       
-            } 
-             @include min-screen (1228px){
-                padding-top: 100px;
-                padding-bottom: 100px;       
-            }
+            // @include max-screen (1227px){
+            //     padding-top: 70px;
+            //     padding-bottom: 70px;       
+            // } 
+            //  @include min-screen (1228px){
+            //     padding-top: 100px;
+            //     padding-bottom: 100px;       
+            // }
 
 
 
