@@ -34,15 +34,17 @@ header{
         font-size: 30px;
     }
     ul{
+        margin-top: 30px;
         list-style-type: none;
+        padding-left: 0px;
+        max-width: 280px;
         :first-child{
             ::before{
                 font-family: "Font Awesome 6 Brands";
                 font-weight: 400;
                 content: "\f2c6";
-                font-size: 60px;
+                font-size: 40px;
                 color: #1C252C;
-                // margin-right: 35px;
             }
         }
         :last-child{
@@ -50,7 +52,7 @@ header{
                 font-family: "Font Awesome 6 Brands";
                 font-weight: 400;
                 content: "\f232";
-                font-size: 62px;
+                font-size: 40px;
                 color: #1C252C;
                 
                 
@@ -63,19 +65,18 @@ header{
              border: 1px solid rgb(237, 192, 192) ;
              background: rgb(237, 192, 192);
              border-radius: 10px;
+             box-sizing: border-box;
              text-align: center;
-             margin: 15px;
-             width: 91px;
-             height: 91px;
+             margin: auto;
+             width: 61px;
+             height: 61px;
+             display: block;
             ::before{
                 font-family: "Font Awesome 6 Brands";
                 font-weight: 400;
                 content: "\f409";
-                font-size: 62px;
-                // color: rgb(237, 192, 192);
+                font-size: 40px;
                 color: #1C252C;
-                
-                // margin-right: 35px;
             }
             :hover{
                 text-decoration: none;

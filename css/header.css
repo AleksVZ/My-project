@@ -36,14 +36,17 @@ header .header_right h4 {
 }
 
 header .header_right ul {
+  margin-top: 30px;
   list-style-type: none;
+  padding-left: 0px;
+  max-width: 280px;
 }
 
 header .header_right ul :first-child ::before {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f2c6";
-  font-size: 60px;
+  font-size: 40px;
   color: #1C252C;
 }
 
@@ -51,7 +54,7 @@ header .header_right ul :last-child ::before {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f232";
-  font-size: 62px;
+  font-size: 40px;
   color: #1C252C;
 }
 
@@ -59,17 +62,19 @@ header .header_right ul li {
   border: 1px solid #edc0c0;
   background: #edc0c0;
   border-radius: 10px;
+  box-sizing: border-box;
   text-align: center;
-  margin: 15px;
-  width: 91px;
-  height: 91px;
+  margin: auto;
+  width: 61px;
+  height: 61px;
+  display: block;
 }
 
 header .header_right ul li ::before {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f409";
-  font-size: 62px;
+  font-size: 40px;
   color: #1C252C;
 }
 

@@ -36,36 +36,42 @@ header .header_right h4 {
   font-size: 30px;
 }
 header .header_right ul {
+  margin-top: 30px;
   list-style-type: none;
+  padding-left: 0px;
+  max-width: 280px;
 }
 header .header_right ul :first-child ::before {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f2c6";
-  font-size: 60px;
+  font-size: 40px;
   color: #1C252C;
 }
 header .header_right ul :last-child ::before {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f232";
-  font-size: 62px;
+  font-size: 40px;
   color: #1C252C;
 }
 header .header_right ul li {
   border: 1px solid rgb(237, 192, 192);
   background: rgb(237, 192, 192);
   border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align: center;
-  margin: 15px;
-  width: 91px;
-  height: 91px;
+  margin: auto;
+  width: 61px;
+  height: 61px;
+  display: block;
 }
 header .header_right ul li ::before {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f409";
-  font-size: 62px;
+  font-size: 40px;
   color: #1C252C;
 }
 header .header_right ul li :hover {
@@ -339,10 +345,16 @@ footer .down_page_row ul li {
 .contacts .container .contacts_left p {
   font-size: 18px;
 }
-.contacts .container .contacts_left span.telegramm {
-  margin-bottom: 10px;
+.contacts .container .contacts_left ul {
+  margin-top: 30px;
+  list-style-type: none;
+  padding-left: 0px;
+  max-width: 280px;
 }
-.contacts .container .contacts_left span.telegramm ::after {
+.contacts .container .contacts_left ul li {
+  margin-bottom: 20px;
+}
+.contacts .container .contacts_left ul .telegramm ::after {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f2c6";
@@ -352,20 +364,27 @@ footer .down_page_row ul li {
   top: 5px;
   left: 5px;
 }
-.contacts .container .contacts_left span.telegramm a {
-  border: 1px solid #1C252C;
+.contacts .container .contacts_left ul .telegramm :hover::after {
+  color: #26a3f7;
+}
+.contacts .container .contacts_left ul .telegramm a {
+  border: 1px solid transparent;
   border-radius: 6px;
   padding: 12px 20px;
   color: #ffb8c6;
   background: #1C252C;
 }
-.contacts .container .contacts_left span.telegramm :hover {
+.contacts .container .contacts_left ul .telegramm :hover {
   text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: white;
+  border: 1px solid rgba(28, 37, 44, 0.9098039216);
+  -webkit-box-shadow: 0px 0px 10px rgba(28, 37, 44, 0.9098039216);
+          box-shadow: 0px 0px 10px rgba(28, 37, 44, 0.9098039216);
+  background: rgba(28, 37, 44, 0.9098039216);
 }
-.contacts .container .contacts_left span.viber {
-  margin-bottom: 10px;
-}
-.contacts .container .contacts_left span.viber ::after {
+.contacts .container .contacts_left ul .viber ::after {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f409";
@@ -375,20 +394,27 @@ footer .down_page_row ul li {
   top: 5px;
   left: 5px;
 }
-.contacts .container .contacts_left span.viber a {
-  border: 1px solid #1C252C;
+.contacts .container .contacts_left ul .viber :hover::after {
+  color: #7c5be8;
+}
+.contacts .container .contacts_left ul .viber a {
+  border: 1px solid transparent;
   border-radius: 6px;
   padding: 12px 40px;
   color: #ffb8c6;
   background: #1C252C;
 }
-.contacts .container .contacts_left span.viber :hover {
+.contacts .container .contacts_left ul .viber :hover {
   text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: white;
+  border: 1px solid rgba(28, 37, 44, 0.9098039216);
+  -webkit-box-shadow: 0px 0px 10px rgba(28, 37, 44, 0.9098039216);
+          box-shadow: 0px 0px 10px rgba(28, 37, 44, 0.9098039216);
+  background: rgba(28, 37, 44, 0.9098039216);
 }
-.contacts .container .contacts_left span.whatsapp {
-  margin-bottom: 10px;
-}
-.contacts .container .contacts_left span.whatsapp ::after {
+.contacts .container .contacts_left ul .whatsapp ::after {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f232";
@@ -398,15 +424,25 @@ footer .down_page_row ul li {
   top: 5px;
   left: 5px;
 }
-.contacts .container .contacts_left span.whatsapp a {
-  border: 1px solid #1C252C;
+.contacts .container .contacts_left ul .whatsapp :hover::after {
+  color: #16c447;
+}
+.contacts .container .contacts_left ul .whatsapp a {
+  border: 1px solid transparent;
   border-radius: 6px;
-  padding: 12px 20px;
+  padding: 12px 22px;
   color: #ffb8c6;
   background: #1C252C;
 }
-.contacts .container .contacts_left span.whatsapp :hover {
+.contacts .container .contacts_left ul .whatsapp :hover {
   text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: White;
+  border: 1px solid rgba(28, 37, 44, 0.9098039216);
+  -webkit-box-shadow: 0px 0px 10px rgba(28, 37, 44, 0.9098039216);
+          box-shadow: 0px 0px 10px rgba(28, 37, 44, 0.9098039216);
+  background: rgba(28, 37, 44, 0.9098039216);
 }
 .contacts .img_you {
   width: 50%;
