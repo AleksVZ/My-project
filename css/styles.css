@@ -23,6 +23,14 @@ header .header_right {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  header .header_right {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
 header .header_right h1 {
   color: white;
   font-size: 50px;
@@ -33,7 +41,6 @@ header .header_right p {
 }
 header .header_right h4 {
   color: white;
-  font-size: 30px;
 }
 header .header_right ul {
   margin-top: 30px;
@@ -46,36 +53,49 @@ header .header_right ul :first-child ::before {
   font-weight: 400;
   content: "\f2c6";
   font-size: 40px;
-  color: #1C252C;
+  color: #26a3f7;
 }
 header .header_right ul :last-child ::before {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f232";
   font-size: 40px;
-  color: #1C252C;
+  color: #16c447;
 }
 header .header_right ul li {
-  border: 1px solid rgb(237, 192, 192);
-  background: rgb(237, 192, 192);
-  border-radius: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   text-align: center;
   margin: auto;
-  width: 61px;
-  height: 61px;
-  display: block;
 }
 header .header_right ul li ::before {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
   content: "\f409";
   font-size: 40px;
-  color: #1C252C;
+  color: #7c5be8;
+}
+header .header_right ul li a {
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 61px;
+  height: 61px;
+  display: block;
+  border: 1px solid rgba(28, 37, 44, 0.9098039216);
+  -webkit-box-shadow: 0px 0px 10px rgb(237, 192, 192);
+          box-shadow: 0px 0px 10px rgb(237, 192, 192);
+  background: rgba(28, 37, 44, 0.9098039216);
 }
 header .header_right ul li :hover {
   text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+@media screen and (max-width: 768px) {
+  header .header_right ul li {
+    margin: 10px;
+  }
 }
 
 .gallery {
@@ -274,7 +294,9 @@ header .header_right ul li :hover {
 }
 
 footer {
-  background: #1C252C;
+  background: #090909;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 footer .down_page_row h4 {
   color: white;
@@ -287,6 +309,29 @@ footer .down_page_row ul {
 }
 footer .down_page_row ul li {
   color: white;
+}
+footer .down_page_row .down_page_right {
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+  footer .down_page_row .down_page_right {
+    text-align: center;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+footer .down_page_row .down_page_left {
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  footer .down_page_row .down_page_left {
+    text-align: center;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 45px;
+  }
 }
 
 .contacts {

@@ -1,5 +1,8 @@
 footer{
-    background: #1C252C;
+    // background: #1C252C;
+    background: #090909;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
     .down_page_row{
         
@@ -12,9 +15,32 @@ footer{
         ul{
             list-style: none;
             padding-left: inherit;
+            
             li{
                 color: white;
+                
             }
+        }
+        // .down_page_right,
+        // .down_page_left{
+        //     @include max-screen (768px){
+        //         text-align: center;
+        //        }
+        // }
+        .down_page_right{
+            text-align: right;
+            @include max-screen (768px){
+                text-align: center;
+                order: 2;
+               }
+        }
+        .down_page_left{
+            text-align: left;
+            @include max-screen (768px){
+                text-align: center;
+                order: 1;
+                margin-bottom: 45px;
+               }
         }
 
     }
