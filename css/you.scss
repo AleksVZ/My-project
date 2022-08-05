@@ -54,12 +54,15 @@
         font-size: 25px;
         margin-bottom: 20px;
         line-height: inherit;
+        font-family: 'Roboto', sans-serif;
+
         @include max-screen (1142px){
             
         }
     }
     p{
         font-size: 18px;
+        font-family: 'Roboto', sans-serif;
     }
     }
     .img_you{

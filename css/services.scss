@@ -9,9 +9,24 @@
     }
 
     .row_header_list{
-        color: white;
-        font-size: 20px;
+
         justify-content: center;
+
+        ul{
+            :hover{
+                color: #ffb8c6;
+                transform: scale(1.1, 1.1,);
+                }
+
+            li{                
+                margin-bottom: 10px;
+                color: white;
+                font-size: 18px;
+                font-family: 'Roboto', sans-serif;
+
+
+            }
+        }
 
 
     }

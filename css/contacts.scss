@@ -45,22 +45,26 @@
                 font-size: 25px;
                 margin-bottom: 25px;
                 line-height: inherit;
+                font-family: 'Roboto', sans-serif;
                 @include max-screen (1142px){
                     
                 }
             }
             h4{
-                font-size: 20x;
-                // margin-bottom: 25px;
+                font-size: 30px;
+                font-family: 'Roboto', sans-serif;
                 line-height: inherit;
+               
             }
             p{
                 font-size: 18px;
+                font-family: 'Roboto', sans-serif;
+                margin-top: 25px;
 
                 }
 
                 ul{
-                    margin-top: 30px;
+                    margin-top: 15px;
                     list-style-type: none;
                     padding-left: 0px;
                     max-width: 280px;
@@ -89,6 +93,8 @@
                     padding: 12px 20px;
                     color: #ffb8c6;
                     background: #1C252C;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
                     
                 }
                 :hover{
@@ -123,6 +129,8 @@
                     padding: 12px 40px;
                     color: #ffb8c6;
                     background: #1C252C;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
                 }
                 :hover{
                     text-decoration: none;
@@ -155,6 +163,8 @@
                     padding: 12px 22px;
                     color: #ffb8c6;
                     background: #1C252C;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
                 }
                 :hover{
                     text-decoration: none;
