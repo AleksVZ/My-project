@@ -15,7 +15,7 @@
         ul{
             :hover{
                 color: #ffb8c6;
-                transform: scale(1.1, 1.1,);
+                transform: scale(1.02, 1.02);
                 }
 
             li{                
@@ -23,6 +23,11 @@
                 color: white;
                 font-size: 18px;
                 font-family: 'Roboto', sans-serif;
+                @include max-screen (821px){
+                    font-size: 16px;
+                    margin-left: -15px;
+                   
+                }
 
 
             }

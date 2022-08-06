@@ -23,7 +23,7 @@ header .header_right {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   header .header_right {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -35,14 +35,90 @@ header .header_right h1 {
   color: white;
   font-size: 50px;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 821px) {
+  header .header_right h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 413px) {
+  header .header_right h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 319px) {
+  header .header_right h1 {
+    font-size: 30px;
+  }
 }
 header .header_right p {
   color: white;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 821px) {
+  header .header_right p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 319px) {
+  header .header_right p {
+    font-size: 16px;
+  }
 }
 header .header_right h4 {
   color: white;
+  margin-bottom: 35px;
+}
+header .header_right h4 :hover {
+  color: pink;
+  -webkit-transform: scale(1.01, 1.01);
+          transform: scale(1.01, 1.01);
+  display: block;
+}
+@media screen and (max-width: 324px) {
+  header .header_right h4 :hover {
+    display: inline;
+  }
+}
+header .header_right h4 ::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f879";
+  font-size: 24px;
+  color: rgb(240, 138, 155);
+  margin-right: 15px;
+  position: relative;
+  top: -5px;
+}
+@media screen and (max-width: 319px) {
+  header .header_right h4 ::before {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}
+header .header_right h4 a {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+@media screen and (max-width: 821px) {
+  header .header_right h4 a {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 374px) {
+  header .header_right h4 a {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 319px) {
+  header .header_right h4 a {
+    font-size: 20px;
+  }
 }
 header .header_right ul {
   margin-top: 30px;
@@ -86,6 +162,7 @@ header .header_right ul li a {
   -webkit-box-shadow: 0px 0px 10px rgb(237, 192, 192);
           box-shadow: 0px 0px 10px rgb(237, 192, 192);
   background: rgba(28, 37, 44, 0.9098039216);
+  font-family: "Roboto", sans-serif;
 }
 header .header_right ul li :hover {
   text-decoration: none;
@@ -94,7 +171,7 @@ header .header_right ul li :hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   header .header_right ul li {
     margin: 10px;
   }
@@ -215,14 +292,20 @@ header .header_right ul li :hover {
 }
 .services .row_header_list ul :hover {
   color: #ffb8c6;
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.02, 1.02);
+          transform: scale(1.02, 1.02);
 }
 .services .row_header_list ul li {
   margin-bottom: 10px;
   color: white;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+}
+@media screen and (max-width: 821px) {
+  .services .row_header_list ul li {
+    font-size: 16px;
+    margin-left: -15px;
+  }
 }
 .services .img_services {
   max-width: 600px;
@@ -399,10 +482,74 @@ footer .down_page_row .down_page_left {
   line-height: inherit;
   font-family: "Roboto", sans-serif;
 }
+@media screen and (max-width: 520px) {
+  .contacts .container .contacts_left h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+}
 .contacts .container .contacts_left h4 {
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
   line-height: inherit;
+  margin-bottom: 25px;
+}
+.contacts .container .contacts_left h4 :hover {
+  -webkit-transform: scale(1.01, 1.01);
+          transform: scale(1.01, 1.01);
+  display: block;
+}
+@media screen and (max-width: 388px) {
+  .contacts .container .contacts_left h4 :hover {
+    display: inline;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    border: 1px solid rgba(28, 37, 44, 0.9098039216);
+    -webkit-box-shadow: 0px 0px 10px rgba(28, 37, 44, 0.9098039216);
+            box-shadow: 0px 0px 10px rgba(28, 37, 44, 0.9098039216);
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+}
+.contacts .container .contacts_left h4 ::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f879";
+  font-size: 24px;
+  color: #1C252C;
+  margin-right: 15px;
+  position: relative;
+  top: -5px;
+}
+@media screen and (max-width: 374px) {
+  .contacts .container .contacts_left h4 ::before {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 319px) {
+  .contacts .container .contacts_left h4 ::before {
+    top: -3px;
+  }
+}
+.contacts .container .contacts_left h4 a {
+  font-family: "Roboto", sans-serif;
+  color: #1C252C;
+  text-decoration: none;
+  font-size: 35px;
+}
+@media screen and (max-width: 821px) {
+  .contacts .container .contacts_left h4 a {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .contacts .container .contacts_left h4 a {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 319px) {
+  .contacts .container .contacts_left h4 a {
+    font-size: 20px;
+  }
 }
 .contacts .container .contacts_left p {
   font-size: 18px;

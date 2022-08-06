@@ -20,26 +20,87 @@ header{
 
     .header_right{
         justify-content: center;
-        @include max-screen (768px){
+        @include max-screen (767px){
             align-items: center;
             text-align: center;
-           }
+        }
         
 
     h1{
         color: white;
         font-size: 50px;
         font-family: 'Roboto', sans-serif;
+        margin-bottom: 15px;
+        @include max-screen (821px){
+            font-size: 40px;
+        }
+        @include max-screen (413px){
+            font-size: 36px;
+        }
+        @include max-screen (319px){
+            font-size: 30px;
+        }
     }
     
     p{
         color: white;
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
+        margin-bottom: 25px;
+        @include max-screen (821px){
+            font-size: 18px;
+        }
+        @include max-screen (319px){
+            font-size: 16px;
+        }
+        
     }
     h4{
         color: white;
+        margin-bottom: 35px;
         
+            :hover{
+                color: pink;
+                transform: scale(1.01, 1.01);
+                display: block;
+                @include max-screen (324px){
+                    display: inline;
+                }
+                
+            }
+        ::before{
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            content: "\f879";
+            font-size: 24px;
+            color: rgb(240, 138, 155);
+            margin-right: 15px;
+            position:relative;
+            top: -5px;
+            @include max-screen (319px){
+                font-size: 18px;
+                margin-right: 10px;
+               }
+
+
+        }
+        a{
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            text-decoration: none;
+            font-size: 35px;
+            @include max-screen (821px){
+                font-size: 30px;
+               }
+               @include max-screen (374px){
+                font-size: 25px;
+               }
+               @include max-screen (319px){
+                font-size: 20px;
+               }
+
+            
+        }
     }
     ul{
         margin-top: 30px;
@@ -91,6 +152,7 @@ header{
             border: 1px solid #1c252ce8;
             box-shadow: 0px 0px 10px rgb(237, 192, 192);
             background: #1c252ce8;
+            font-family: 'Roboto', sans-serif;
 
 
             }
@@ -101,7 +163,7 @@ header{
             }
 
             
-            @include max-screen (768px){
+            @include max-screen (767px){
                 margin: 10px;
                }
         }
@@ -109,5 +171,4 @@ header{
 
     }
     }
-    
 }

@@ -1,1 +1,33 @@
-.services{background:#1c252c;padding-top:25px;padding-bottom:25px}.services .row_header{background-image:url("../img/Pngtree_2.png");background-size:cover}.services .row_header_list{justify-content:center}.services .row_header_list ul :hover{color:#ffb8c6;transform:scale(1.1, 1.1)}.services .row_header_list ul li{margin-bottom:10px;color:#fff;font-size:18px;font-family:"Roboto",sans-serif}.services .img_services{max-width:600px;width:100%;border-radius:1200px 4px 600px 4px;overflow:hidden}
+.services {
+  background: #1C252C;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.services .row_header {
+  background-image: url("../img/Pngtree_2.png");
+  background-size: cover;
+}
+
+.services .row_header_list {
+  justify-content: center;
+}
+
+.services .row_header_list ul :hover {
+  color: #ffb8c6;
+  transform: scale(1.02, 1.02);
+}
+
+.services .row_header_list ul li {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.services .img_services {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 1200px 4px 600px 4px;
+  overflow: hidden;
+}
