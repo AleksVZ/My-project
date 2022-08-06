@@ -290,6 +290,13 @@ header .header_right ul li :hover {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.services .row_header_list h3 {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 15px;
+}
 .services .row_header_list ul :hover {
   color: #ffb8c6;
   -webkit-transform: scale(1.02, 1.02);
